@@ -1,0 +1,8 @@
+{
+	"welcome": "Welcome to the {{target}} extension!",
+	"saveCart": "Save your cart for later",
+	"warning": "Must include items to be saved",
+	"saved": "Cart saved!",
+	"failed": "Failed to save cart",
+	"notLoggedIn": "You must be logged in to save your cart"
+}

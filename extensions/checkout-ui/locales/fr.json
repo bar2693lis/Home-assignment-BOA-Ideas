@@ -1,0 +1,8 @@
+{
+	"welcome": "Bienvenue dans l'extension {{target}}!",
+	"saveCart": "Enregistrez votre panier",
+	"warning": "Doit inclure les éléments à enregistrer",
+	"saved": "Panier enregistré !",
+	"failed": "Échec de l'enregistrement du panier",
+	"notLoggedIn": "Vous devez être connecté pour sauvegarder votre panier"
+}
