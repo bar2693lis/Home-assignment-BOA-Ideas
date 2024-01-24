@@ -11,7 +11,6 @@ import {
 	useCartLines,
 	Divider,
 	Text,
-	InlineSpacer,
 } from '@shopify/ui-extensions-react/checkout';
 import { useState, useEffect } from 'react';
 
@@ -23,14 +22,14 @@ function Extension() {
 	const { checkoutToken, sessionToken, buyerIdentity } = useApi();
 	const cart = useCartLines();
 
-	const [selectedProduct, setSelectedProduct] = useState([]);
-	const [selectedSavedProduct, setSelectedSavedProduct] = useState([]);
-	const [savedProduct, setSavedProduct] = useState([]);
-	const [isLoading, setIsLoading] = useState(false);
-	const [showCartItems, setShowCartItems] = useState(true);
-	const [bannerTitle, setBannerTitle] = useState('notLoggedIn');
-	const [bannerStatus, setBannerStatus] = useState('critical');
-	const [customerId, setCustomerId] = useState(null);
+	const [selectedProduct, setSelectedProduct] = useState([]); // State to store the selected products
+	const [selectedSavedProduct, setSelectedSavedProduct] = useState([]); // State to store the selected saved products
+	const [savedProduct, setSavedProduct] = useState([]); // State to store the saved products retrieved from the DB
+	const [isLoading, setIsLoading] = useState(false); // State to track the loading status
+	const [showCartItems, setShowCartItems] = useState(true); // State to control the visibility of cart items
+	const [bannerTitle, setBannerTitle] = useState('notLoggedIn'); // State to store the title of the banner
+	const [bannerStatus, setBannerStatus] = useState('critical'); // State to store the status of the banner
+	const [customerId, setCustomerId] = useState(null); // State to store the customer ID
 
 	// This function copies the selected products from the lines array and returns a new array with the copied products.
 	const copyProducts = async (products, lines) => {
