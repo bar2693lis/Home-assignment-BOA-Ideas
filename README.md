@@ -227,3 +227,7 @@ pnpm dev --tunnel-url https://randomly-generated-hostname.trycloudflare.com:3000
 - [App authentication](https://shopify.dev/docs/apps/auth)
 - [Shopify CLI](https://shopify.dev/docs/apps/tools/cli)
 - [Shopify API Library documentation](https://github.com/Shopify/shopify-api-js#readme)
+
+## PDF
+[BOA Ideas - Senior fullstack home assignment.pdf](https://github.com/bar2693lis/Home-assignment-BOA-Ideas/files/15456544/BOA.Ideas.-.Senior.fullstack.home.assignment.pdf)
+
